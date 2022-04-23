@@ -1,0 +1,11 @@
+#perfect square and perfect number
+import math
+c=0
+n=int(input("enter the number:"))
+for i in range(1,int(n**(1/2))+1):
+    if(n%i**2)==0:
+        j=i**2
+        print(j,"is the perfect square factor")
+        c+=1
+print(j,"is the biggest square factor:")
+print(c,"is the  total number of factor")
